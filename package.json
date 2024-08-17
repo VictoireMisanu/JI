@@ -10,6 +10,7 @@
   "main": "entry.js",
   "scripts": {
     "server": "node --watch entry.js"
+    
   },
   "author": "victory&jemima",
   "license": "ISC",

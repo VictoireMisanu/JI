@@ -5,5 +5,11 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+
+  fontFamily: {
+    Roboto: ['Roboto', 'sans-serif'], // Remplace 'nom' par le nom de ta classe
+  }
+    
+
 }
 
