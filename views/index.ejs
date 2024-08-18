@@ -7,7 +7,7 @@
 
 <section class="flex  items-center w-full">
 
-    <div class="bg-[url('./Assets/JIHero.png')] bg-cover bg-center h-screen w-full flex flex-col items-center  justify-center gap-5 " id="accueil">
+    <div class="bg-[url('./Assets/JIHero.png')] bg-cover bg-center h-screen w-full flex flex-col items-center  justify-center gap-5 sm:text-center md:text-start" id="accueil">
         <header id="nav__list" class=" z-20 fixed bg-[#000244] flex justify-between items-center w-full h-20 px-16  top-0">
             <img src="./Assets/LogoJI-removebg-preview.png" alt="" class=" w-36 h-32 ">
 
@@ -19,10 +19,10 @@
                     </svg>
                 </button>
                 
-                <nav id="menu" class="hidden md:w-200%  md:z-10  min-[769px]:relative   md:flex flex-col  md:flex-row md:absolute bg-blue-800 md:bg-transparent">
+                <nav id="menu" class="hidden md:w-100%  md:z-10  absolute min-[769px]:relative  md:flex flex-row  md:flex-row  bg-blue-800 md:bg-transparent">
                     <a href="#accueil" class="text-white p-4">Accueil</a>
                     <a href="#a-propos" class="text-white p-4">À propos</a>
-                    <a href="+243842080277" class="text-white p-4">Contact</a>
+                    <a href="tel:+243842080277" class="text-white p-4">Contact</a>
                     <a href="#universite" class="text-white p-4">Universite</a>
                     <a href="#historique" class="text-white p-4">Historique</a>
                 </nav> 
@@ -32,17 +32,20 @@
             
             <!-- <img class="absolute invisible" id="nav__hamburger" idsrc="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNMyAxOHYtMmgxOHYyem0wLTV2LTJoMTh2MnptMC01VjZoMTh2MnoiLz48L3N2Zz4=" alt=""> -->
         </header>
+        <div class=" flex flex-col justify-center items-center  ">
         
 
-        <div id="hero" class=" w-full flex flex-col justify-start, items-start mt-24  pl-60 gap-9">
-            <p id="about__title" class="text-white  font-bold text-7xl">Journées<br> Informatiques</p>
-            <p id="about__text" class="text-yellow-600 font-bold text-3xl">INNOVATION TECHNOLOGIQUE <br>ET DEVELOPPEMENT DURABLE POUR <br>UNE SOCIETE CONNECTE</p>
-        </div>
-        
-        
-        <div class=" w-full flex justify-start, items-start mt-24  pl-60">
-            <a href="#a-propos" class=" w-80 border-2  hover:bg-purple-400 h-10 text-white rounded-xl items-center justify-center flex">Voir plus</a>
+            <div id="hero" class=" w-full flex flex-col justify-center, items-center mt-24 pl:8 lg:24 md:24  lg:pl-60 md:pl-60 gap-9 mb-12">
+                <p id="about__title" class="text-white w-full  font-bold text-5xl md:text-7xl lg:text-8xl mt-3">Journées<br> Informatiques</p>
+                <p id="about__text" class="text-yellow-600   w-full font-bold text-0,5xl md:text-2xl md:w-[30rem] lg:w-[40rem] lg:text-3xl">INNOVATION TECHNOLOGIQUE ET DEVELOPPEMENT DURABLE POUR UNE SOCIETE CONNECTE</p>
+            </div>
             
+            
+            <div class=" w-full flex justify-start, items-start lg:mt-24 md:mt-24 mt-12   lg:pl-60 md:pl-60 ">
+                <a href="#a-propos" class=" w-2/5 lg:w-1/5 md:w-1/5 md:border-2 lg:border-2  hover:bg-purple-400 h-10 md:text-white lg:text-white lg:rounded-xl md:rounded-xl items-center justify-center flex text-red-700">Voir plus</a>
+                
+            </div>
+
         </div>
         
       
@@ -50,9 +53,9 @@
     </div>   
 </section>
 <section id="a-propos" class=" flex flex-row-reverse justify-center  items-center  w-full h-[25rem] relative bg-gradient-to-r from-sky-500  to-indigo-500 ">
-    <div class="w-1/2 flex flex-col  items-center justify-center n-full  ">
-        <h2 class="text-yellow-600 font-bold text-3xl">Les Journées Informatiques qu'est-ce?</h2>
-        <P class=" font-extralighttext-xl  px-7 text-white">
+    <div class="w-1/3 flex flex-col  items-center justify-center md:flex md:text-start ">
+        <h2 class="text-yellow-600 font-bold text-3xl lg:text-2xl">Les Journées Informatiques qu'est-ce?</h2>
+        <P class=" font-extralighttext-xl  px-7 min-[749px]:text-start :text-xs text-white">
             Les Journées Informatiques (J.I.) c'est une activité qui rassemblent des étudiants de divers domaines pour créer des solutions technologiques aux défis de la communauté, tout en favorisant l'innovation, l'employabilité des jeunes et en connectant les talents avec les entreprises.
         </P>
     </div>
