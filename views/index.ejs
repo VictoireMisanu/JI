@@ -5,21 +5,21 @@
 
 
 
-<section class="flex  items-center w-full">
+<section class="flex  items-center w-full md:left-10">
 
-    <div class="bg-[url('./Assets/JIHero.png')] bg-cover bg-center h-screen w-full flex flex-col items-center  justify-center gap-5 sm:text-center md:text-start" id="accueil">
-        <header id="nav__list" class=" z-20 fixed bg-[#000244] flex justify-between items-center w-full h-20 px-16  top-0">
-            <img src="./Assets/LogoJI-removebg-preview.png" alt="" class=" w-36 h-32 ">
+    <div class="bg-[url('./Assets/JIHero.png')] bg-cover bg-center h-50% md:lg:h-screen w-full flex flex-col items-center  justify-center gap-5 sm:text-center md:text-start" id="accueil">
+        <header id="nav__list" class=" h-15 z-20 fixed bg-blue-500 bg-transparent md:lg:sm:bg-[#000244] flex justify-between items-center w-full  md:lg:h-20 px-8 md:lg:px-16  top-0">
+            <img src="./Assets/logo.png" alt="" class=" w-16 h-16">
 
             <div class="relative">
                 <button id="menu-toggle" class="md:hidden p-2">
                     <!-- Icône hamburger -->
                     <svg xmlns="http://www.w3.org/2000/svg" width="2 rem" height="2rem" viewBox="0 0 24 24"><path fill="white" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z" class="h-6 w-6  " fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
                     </svg>
                 </button>
                 
-                <nav id="menu" class="hidden md:w-100%  md:z-10  absolute min-[769px]:relative  md:flex flex-row  md:flex-row  bg-blue-800 md:bg-transparent">
+                <nav id="menu" class="hidden md:w-100% rounded-sm  md:z-10  absolute min-[769px]:relative  md:flex flex-row  md:flex-row ml-[-2rem] bg-blue-800 md:bg-transparent">
                     <a href="#accueil" class="text-white p-4">Accueil</a>
                     <a href="#a-propos" class="text-white p-4">À propos</a>
                     <a href="tel:+243842080277" class="text-white p-4">Contact</a>
@@ -32,17 +32,17 @@
             
             <!-- <img class="absolute invisible" id="nav__hamburger" idsrc="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNMyAxOHYtMmgxOHYyem0wLTV2LTJoMTh2MnptMC01VjZoMTh2MnoiLz48L3N2Zz4=" alt=""> -->
         </header>
-        <div class=" flex flex-col justify-center items-center  ">
+        <div class=" flex flex-col justify-center items-center    ">
         
 
-            <div id="hero" class=" w-full flex flex-col justify-center, items-center mt-24 pl:8 lg:24 md:24  lg:pl-60 md:pl-60 gap-9 mb-12">
+            <div id="hero" class=" w-full flex flex-col justify-center, items-center mt-24   gap-9 mb-12 md:right-32 lg:right-32 lg:left-7">
                 <p id="about__title" class="text-white w-full  font-bold text-5xl md:text-7xl lg:text-8xl mt-3">Journées<br> Informatiques</p>
                 <p id="about__text" class="text-yellow-600   w-full font-bold text-0,5xl md:text-2xl md:w-[30rem] lg:w-[40rem] lg:text-3xl">INNOVATION TECHNOLOGIQUE ET DEVELOPPEMENT DURABLE POUR UNE SOCIETE CONNECTE</p>
             </div>
             
             
-            <div class=" w-full flex justify-start, items-start lg:mt-24 md:mt-24 mt-12   lg:pl-60 md:pl-60 ">
-                <a href="#a-propos" class=" w-2/5 lg:w-1/5 md:w-1/5 md:border-2 lg:border-2  hover:bg-purple-400 h-10 md:text-white lg:text-white lg:rounded-xl md:rounded-xl items-center justify-center flex text-red-700">Voir plus</a>
+            <div class=" w-full flex justify-start, items-start lg:mt-24 md:mt-24 mt-12   lg:pl-30 md:pl-30 ">
+                <a href="#a-propos" class="hidden w-2/5 lg:w-3/5 md:w-3/5 md:border-2 lg:border-2 rounded-xl   hover:bg-purple-400 h-10 md:text-white lg:text-white lg:rounded-xl md:rounded-xl items-center justify-center md:lg:flex text-red-700">Voir plus</a>
                 
             </div>
 
@@ -52,61 +52,301 @@
         
     </div>   
 </section>
-<section id="a-propos" class=" flex flex-row-reverse justify-center  items-center  w-full h-[25rem] relative bg-gradient-to-r from-sky-500  to-indigo-500 ">
-    <div class="w-1/3 flex flex-col  items-center justify-center md:flex md:text-start ">
-        <h2 class="text-yellow-600 font-bold text-3xl lg:text-2xl">Les Journées Informatiques qu'est-ce?</h2>
-        <P class=" font-extralighttext-xl  px-7 min-[749px]:text-start :text-xs text-white">
-            Les Journées Informatiques (J.I.) c'est une activité qui rassemblent des étudiants de divers domaines pour créer des solutions technologiques aux défis de la communauté, tout en favorisant l'innovation, l'employabilité des jeunes et en connectant les talents avec les entreprises.
+<section id="a-propos" class=" flex justify-center  items-center  w-full p-6 ">
+    <div class="w-full flex flex-col  items-center justify-center">
+        <h2 class= " w-full text-blue-600 text-[16px] font-bold  lg:text-xl pb-2  flex justify-center items-center">Les Journées Informatiques qu'est-ce?</h2>
+        <P class="p-2  text-black w-fit shadow-gray-700 shadow text-[12px] rounded-lg   border-black">
+            Les Journées Informatiques (J.I.) sont l'ensemble d'événements visant à rassembler les étudiants de divers domaines pour créer des solutions technologiques aux défis de la communauté, tout en favorisant l'innovation, l'employabilité des jeunes et en connectant les talents avec les entreprises.
         </P>
     </div>
-   <!-- <div class="w-1/2  flex items-center justify-center">
-    <img src="./Assets/whatT.png" alt="" class="n-full"> -->
-
-   </div>
 </section>
-<section class=" flex flex-col justify-center  items-center  w-full   bg-gradient-to-r from-sky-100 ">
-    <p class="text-blue-900 font-bold text-3xl py-5">Objectifs</p>
-    <div id="about" class=" flex flex-row justify-center  items-center  w-full  relative rounded-lg   bg-gradient-to-r from-sky-100 gap-10 ">
-        <div class="w-1/3 flex flex-col  items-center justify-center shadow-black shadow-lg rounded-lg my-8">
+<section class=" flex flex-col justify-center  items-start  w-full pb-10 px-6  bg-gradient-to-r from-sky-50 ">
+    <p class="text-yellow-600 font-bold text-[16px] py-2">Objectifs</p>
+    <div  class=" flex  lg:md:flex-row justify-center  items-center  w-full  relative rounded-lg   bg-gradient-to-r from-sky-100 gap-4 ">
+        <div class="w-1/2 h-fit md:lg:w-1/3 flex flex-col  items-center justify-center shadow-black shadow-lg rounded-lg">
             <img src="./Assets/promo.png" alt="" class="rounded-t-[0.5rem]  w-full">
 
-            <div class="h-full">
-                <p class="text-yellow-600  font-bold p-3">
-                    Promouvoir les innovations numériques
-                    
+            <div class="">
+                <p class="text-yellow-600  font-bold px-3 text-[10px]">
+                    Promouvoir les innovations numériques  
                 </p>
-                <p class=" p-3"> 
-                    L'objectif de La 17 éme édition est de promouvoir les innovations numériques en RDC.
+                <p class=" px-3 py-1 text-[8px]   mb-3"> 
+                    L'objectif de La 17 éme édition est de promouvoir les innovations numériques des etudiants de divers Universités en RDC.
                 </p>
             </div>
             
         </div>
         
-        <div class="w-1/3 flex flex-col  items-center justify-center shadow-black shadow-lg rounded-lg">
+        <div class="w-1/2 h-fit flex flex-col md:lg:w-1/3 items-center justify-center shadow-black shadow-lg rounded-lg">
             <img src="./Assets/nume.png" alt="" class="rounded-t-[0.5rem]  w-full ">
-            <div class="max-h-full">
-                <p class="text-yellow-600  font-bold p-3">
+            <div class="">
+                <p class="text-yellow-600  font-bold px-3 text-[10px]">
                     Vulgariser l'utilisation des outils numériques                
                 </p>
-                <p class=" px-3"> 
-                    Les journées informatiques visent également à vulgariser l'utilisation des outils numériques dans tous les secteurs de la vie de l'Etat.            </p>
+                <p class=" px-3 py-1 text-[8px]   "> 
+                    les Journées Informatiquesvisent également à vulgariser l'utilisation des outils numériques dans tous les secteurs de la vie de l'Etat.
+                </p>
             </div>
+            
             
            
         </div>
-        <!-- <div class="w-1/4 flex flex-col  items-center justify-center shadow-black shadow-lg rounded-lg">
-            <img src="./Assets/promotion.png" alt="" class="rounded-t-[0.5rem]  w-full h-1/2">
-            <p class="text-yellow-600  font-bold p-3">
-                Promouvoir les innovations numériques
-                
-            </p>
-            <p class=" px-3"> 
-                L'objectif de La 17 éme édition est de promouvoir les innovations numériques en RDC.
-            </p>
-        </div> -->
     </div>
     
 </section>
+
+<section class="flex flex-col justify-center items-start gap-3 px-6 pb-6 bg-gradient-to-r from-red-10 ">
+    <p class="text-red-600 font-bold text-[16px] py-2">Objectifs secondaires</p>
+
+    <div class="flex  justify-center items-center gap-2 text-[10px]">
+        <section class="w-1/3 md:lg:w-1/4 border-4 rounded-md h-56 shadow-md shadow-blue-600 flex flex-col items-center justify-center border-none">
+            <p class="w-[80%] pt-1 text-blue-800 font-bold text-[8px]">Collaboration interdisciplinaire</p>
+            <p class="w-[80%] h-full  pt-2 text-[8px] md:lg:sm:text-xl">Favoriser la collaboration entre les étudiants des facultés techniques et ceux d'autres facultés, encourageant ainsi une approche interdisciplinaire de l'innovation numérique.</p>
+        </section>
+        <section class="w-1/3 md:lg:w-1/4 border-4  rounded-md  shadow-md shadow-yellow-700 flex h-56  flex-col items-center justify-center border-none">
+            <p class="w-[80%] pt-1 text-yellow-600 font-bold text-[8px]">Identification des talents</p>
+            <p class="w-[80%] h-full pt-2 text-[8px] md:lg:sm:text-xl">Identifier les étudiants porteurs de projets innovants ayant un impact socioéconomique important.</p>
+        </section>
+        <section class="w-1/3 md:lg:w-1/4 border-4 border-none  shadow-red-700 rounded-md h-56  shadow-md flex flex-col items-center justify-center">
+            <p class="w-[80%] pt-1  text-red-700 font-bold text-[8px]">Insertion professionnelle</p>
+            <p class="w-[80%] h-50 h-full pt-2 text-[8px] md:lg:sm:text-xl" > Faciliter l'insertion professionnelle des étudiants en mettant en relation les talents émergents avec les entreprises évoluant dans la Tech ou recherchant des profils Tech.</p>
+        </section>
+    </div>
+    <div class="flex  justify-center items-center gap-2">
+        <section class="w-1/3 md:lg:w-1/4 border-4 border-none   shadow-red-700  rounded-md  h-56 shadow-md flex flex-col items-center justify-center">
+            <p class="w-[80%] pt-1 text-red-700 font-bold text-[8px]">Découverte des projets</p>
+            <p class="w-[80%] h-full pt-2 text-[8px] md:lg:sm:text-xl">Encourager la découverte et la mise en valeur des projets des étudiants, offrant aux entreprises l'opportunité de repérer des initiatives prometteuses pour d'éventuels partenariats.</p>
+        </section>
+        <section class="w-1/3 md:lg:w-1/4 border-4 border-none shadow-yellow-700  rounded-md h-56  shadow-md flex flex-col items-center justify-center">
+            <p class="w-[80%] pt-1  text-yellow-600 font-bold text-[8px]">Préparation au monde professionnel</p>
+            <p class="w-[80%] h-full pt-2 text-[8px] md:lg:sm:text-xl">Préparer l'étudiant au monde professionnel en lui offrant des opportunités de développement professionnel, des ateliers de formations et des rencontres avec des professionnels de différents secteurs.</p>
+        </section>
+        <section class="w-1/3 md:lg:w-1/4 border-4 border-none  shadow-blue-700  rounded-md h-56  shadow-md flex flex-col items-center justify-center ">
+            <p class="w-[90%] pt-1  text-blue-700 font-bold text-[8px] ">Stimuler l'entrepreneuriat</p>
+            <p class="w-[80%] h-full pt-2 text-[8px] md:lg:sm:text-xl"> Stimuler l'entrepreneuriat en donnant aux étudiants l'opportunité de développer leurs propres projets d'entreprises dans les domaines de technologies de l'info et de la communication.</p>
+        </section>
+    </div>
+
+</section>
+
+
+<section class=" hidden lg:md:sm:flex lg:md:sm:flex-col lg:md:sm:justify-center lg:md:sm:items-center lg:md:sm:gap-8  lg:md:sm:bg-gradient-to-r from-red-5 red-200">
+    <p class="text-blue-900 font-bold text-2xl py-6">Methodologie</p>
+
+    <div class="flex  justify-center items-center gap-4">
+        <section class="w-1/5 border-4 rounded-md h-fit shadow-md flex flex-col items-center justify-center border-none">
+            <p class="w-[80%] pt-2 font-bold">1. Ouverture</p>
+            <p class="w-[80%] h-full pt-4 text-[8px]">Présentation des objectifs et les grandes lignes des journées informatiques. 
+                Celui-ci se tiendra au sein de l’université de kinshasa, plus précisément sous le grand chapiteau, et réunira près de 2500 participant ainsi que plus de 10 universités provenant de différentes provinces de la RDC.
+                Cette activité aura pour but de dévoiler la vision globale des journées informatiques ainsi que de présenter des panels sur les avancée technologique </p>
+        </section>
+        <section class="w-1/5 border-4  rounded-md h-fit shadow-md shadow-yellow-700 flex flex-col items-center justify-center border-none">
+            <p class="w-[80%] pt-2 text-yellow-600 font-bold ">2. Formations </p>
+            <p class="w-[80%] h-full pt-4 text-[8px]">Des sessions de formations animées par des experts, destinées à
+                approfondir les compétences des participants dans divers domaines de
+                l’informatique. Mais aussi dans le but de préparer l’étudiant pour l’élaboration et
+                la présentation de leurs projets.</p>
+        </section>
+        <section class="w-1/5 border-4 border-none  shadow-red-700 rounded-md h-fit shadow-md flex flex-col items-center justify-center">
+            <p class="w-[80%] pt-2  text-red-700 font-bold">3. Séances découvertes</p>
+            <p class="w-[80%] h-50 h-full pt-4 text-[8px]" > es ateliers interactifs pour découvrir les dernières
+                innovations technologiques et les nouvelles tendances du secteur.</p>
+        </section>
+        <section class="w-1/5 border-4 border-none  shadow-red-700 rounded-md h-fit shadow-md flex flex-col items-center justify-center">
+            <p class="w-[80%] pt-2  text-red-700 font-bold">4. Descentes aux universités</p>
+            <p class="w-[80%] h-50 h-full pt-4 text-[8px]" > Est une activité prévue pour sensibiliser les autres
+                facultés et universités n’ayant pas des filières technologiques à collaborer avec les
+                facultés technologiques pour soumettre leurs besoins en outils ou application
+                informatique mais aussi de participer ensemble avec les facultés technologiques à la
+                résolution des réels problèmes de la société.</p>
+        </section>
+    </div>
+    <div class="flex  justify-center items-center gap-4">
+        <section class="w-1/5 border-4 border-none   shadow-yellow-600 h-fit  rounded-md  shadow-md flex flex-col items-center justify-center">
+            <p class="w-[80%] pt-2 text-yellow-700 font-bold">5. Descentes aux entreprises </p>
+            <p class="w-[80%] h-full pt-4 text-[8px]">pour offrir aux participants un aperçu concret des applications pratiques de leurs connaissances dans le monde professionnel. Mais aussi élaborer un cahier de charge regroupant les besoins en solutions informatiques. les étudiants travailleront pour proposer des solutions à ces entreprises.</p>
+        </section>
+        <section class="w-1/5 border-4 border-none shadow-blue-700 h-fit  rounded-md  shadow-md flex flex-col items-center justify-center">
+            <p class="w-[80%] pt-2  text-blue-600 font-bold">6. Exposition & Zando Numerique</p>
+            <p class="w-[90%] h-full pt-4 text-[8px]"> Un espace d’exposition où les Entreprises et 
+                les Startups pourront présenter leurs produits et services, ainsi qu’un marché numérique
+                pour promouvoir les initiatives locales.
+                </p>
+        </section>
+        <section class="w-1/5 border-4 border-none h-fit  shadow-blue-700  rounded-md  shadow-md flex flex-col items-center justify-center ">
+            <p class="w-[90%] pt-2  text-blue-700 font-bold">7. Challenge</p>
+            <p class="w-[90%] h-full pt-4 text-[8px]"> Un concours stimulant mettant en compétition des équipes sur des
+                projets innovants, favorisant la créativité et l’esprit d’équipe.</p>
+        </section>
+        <section class="w-1/5 border-4 border-none  shadow-red-700 rounded-md h-fit shadow-md flex flex-col items-center justify-center">
+            <p class="w-[80%] pt-2  text-red-700 font-bold">8. Grande plénière </p>
+            <p class="w-[80%] h-50 h-full pt-4 text-[8px]" > Une session de clôture rassemblant tous les participants pour
+                un bilan des activités, des conférences inspirantes et des remises de prix ceci sera
+                organisée en deux jours de manière successive.</p>
+        </section>
+    </div>
+
+</section>
+
+
+<!-- <div class="relative">
+    <button id="menu-ouverture" type="button" class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900" aria-expanded="false">
+      <span id="">Methodologie</span>
+      <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+      </svg>
+    </button>
+  
+   
+    <div id="deroule" class=" hidden absolute left-1/2 z-10 mt-5 md:flex w-screen max-w-max -translate-x-1/2 px-4">
+      <div class="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
+        <div class="p-4">
+          <div class="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
+            <div class="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+              <svg class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
+              </svg>
+            </div>
+            <div>
+              <a href="#" class="font-semibold text-gray-900">
+                Analytics
+                <span class="absolute inset-0"></span>
+              </a>
+              <p class="mt-1 text-gray-600">Get a better understanding of your traffic</p>
+            </div>
+          </div>
+          <div class="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
+            <div class="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+              <svg class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59" />
+              </svg>
+            </div>
+            <div>
+              <a href="#" class="font-semibold text-gray-900">
+                Engagement
+                <span class="absolute inset-0"></span>
+              </a>
+              <p class="mt-1 text-gray-600">Speak directly to your customers</p>
+            </div>
+          </div>
+          <div class="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
+            <div class="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+              <svg class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33" />
+              </svg>
+            </div>
+            <div>
+              <a href="#" class="font-semibold text-gray-900">
+                Security
+                <span class="absolute inset-0"></span>
+              </a>
+              <p class="mt-1 text-gray-600">Your customers&#039; data will be safe and secure</p>
+            </div>
+          </div>
+          <div class="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
+            <div class="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+              <svg class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 16.875h3.375m0 0h3.375m-3.375 0V13.5m0 3.375v3.375M6 10.5h2.25a2.25 2.25 0 002.25-2.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v2.25A2.25 2.25 0 006 10.5zm0 9.75h2.25A2.25 2.25 0 0010.5 18v-2.25a2.25 2.25 0 00-2.25-2.25H6a2.25 2.25 0 00-2.25 2.25V18A2.25 2.25 0 006 20.25zm9.75-9.75H18a2.25 2.25 0 002.25-2.25V6A2.25 2.25 0 0018 3.75h-2.25A2.25 2.25 0 0013.5 6v2.25a2.25 2.25 0 002.25 2.25z" />
+              </svg>
+            </div>
+            <div>
+              <a href="#" class="font-semibold text-gray-900">
+                Integrations
+                <span class="absolute inset-0"></span>
+              </a>
+              <p class="mt-1 text-gray-600">Connect with third-party tools</p>
+            </div>
+          </div>
+          <div class="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
+            <div class="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+              <svg class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+              </svg>
+            </div>
+            <div>
+              <a href="#" class="font-semibold text-gray-900">
+                Automations
+                <span class="absolute inset-0"></span>
+              </a>
+              <p class="mt-1 text-gray-600">Build strategic funnels that will convert</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+          <a href="#" class="flex items-center justify-center gap-x-2.5 p-3 font-semibold text-gray-900 hover:bg-gray-100">
+            <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M2 10a8 8 0 1116 0 8 8 0 01-16 0zm6.39-2.908a.75.75 0 01.766.027l3.5 2.25a.75.75 0 010 1.262l-3.5 2.25A.75.75 0 018 12.25v-4.5a.75.75 0 01.39-.658z" clip-rule="evenodd" />
+            </svg>
+            Watch demo
+          </a>
+          <a href="#" class="flex items-center justify-center gap-x-2.5 p-3 font-semibold text-gray-900 hover:bg-gray-100">
+            <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 013.5 2h1.148a1.5 1.5 0 011.465 1.175l.716 3.223a1.5 1.5 0 01-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 006.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 011.767-1.052l3.223.716A1.5 1.5 0 0118 15.352V16.5a1.5 1.5 0 01-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 012.43 8.326 13.019 13.019 0 012 5V3.5z" clip-rule="evenodd" />
+            </svg>
+            Contact sales
+          </a>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+<div class="relative flex items-center justify-center lg:md:hidden p-15 h-fit" >
+    <button id="menu-ouverture" type="button" class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-blue-600 p-3 bg-blue-600 rounded-lg " aria-expanded="false">
+        <span class="text-white" id="">Methodologie</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 24 24"><path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9l6 6l6-6"/></svg>
+    </button>
+    
+    <nav id="deroule" class="hidden w-full z-10  absolute rounded-md  top-14   flex-row items-center justify-center  gap-5  bg-blue-50 md:bg-transparent">
+       
+        <a href="#" class="text-white p-4 block  border-2 rounded-lg w-3/4 mx-auto bg-blue-500"><h2>1. Ouverture</h2>
+            <p class="w-[80%] h-full pt-4 text-[8px]">Présentation des objectifs et les grandes lignes des journées informatiques. 
+                Celui-ci se tiendra au sein de l’université de kinshasa, plus précisément sous le grand chapiteau, et réunira près de 2500 participant ainsi que plus de 10 universités provenant de différentes provinces de la RDC.
+                Cette activité aura pour but de dévoiler la vision globale des journées informatiques ainsi que de présenter des panels sur les avancée technologique </p>
+        </a>
+        <a href="#" class="text-white p-4 block border-2 rounded-lg w-3/4 mx-auto bg-blue-500"> <h2>2. Formation</h2>
+            <p class="w-[80%] h-full pt-4 text-[8px]">Des sessions de formations animées par des experts, destinées à
+                approfondir les compétences des participants dans divers domaines de
+                l’informatique. Mais aussi dans le but de préparer l’étudiant pour l’élaboration et
+                la présentation de leurs projets.</p>
+        </a>
+        <a href="#" class="text-white p-4 block border-2 rounded-lg w-3/4  mx-auto bg-blue-500">3. Séances découvertes
+            <p class="w-[80%] h-50 h-full pt-4 text-[8px]" > es ateliers interactifs pour découvrir les dernières
+                innovations technologiques et les nouvelles tendances du secteur.</p>
+        </a>
+        <a href="#" class="text-white p-4 block border-2 rounded-lg w-3/4   mx-auto bg-blue-500">4. Descentes aux universités
+            <p class="w-[80%] h-50 h-full pt-4 text-[8px]" > Est une activité prévue pour sensibiliser les autres
+                facultés et universités n’ayant pas des filières technologiques à collaborer avec les
+                facultés technologiques pour soumettre leurs besoins en outils ou application
+                informatique mais aussi de participer ensemble avec les facultés technologiques à la
+                résolution des réels problèmes de la société.</p>
+        </a>
+        <a href="#" class="text-white p-4 block border-2 rounded-lg w-3/4 mx-auto bg-blue-500">5. Descentes aux entreprises
+            <p class="w-[80%] h-full pt-4 text-[8px]">pour offrir aux participants un aperçu concret des applications pratiques de leurs connaissances dans le monde professionnel. Mais aussi élaborer un cahier de charge regroupant les besoins en solutions informatiques. les étudiants travailleront pour proposer des solutions à ces entreprises.</p>
+        </a>
+        <a href="#" class="text-white p-4 block border-2 rounded-lg w-3/4 mx-auto bg-blue-500">6. Exposition & Zando Numerique
+            <p class="w-[90%] h-full pt-4 text-[8px]"> Un espace d’exposition où les Entreprises et 
+                les Startups pourront présenter leurs produits et services, ainsi qu’un marché numérique
+                pour promouvoir les initiatives locales.
+                </p>
+        </a>
+        <a href="#" class="text-white p-4 block border-2 rounded-lg w-3/4 mx-auto bg-blue-500">7. Challenge
+            <p class="w-[90%] h-full pt-4 text-[8px]"> Un concours stimulant mettant en compétition des équipes sur des
+                projets innovants, favorisant la créativité et l’esprit d’équipe.
+            </p>
+        </a>
+        <a href="#" class="text-white p-4 block border-2 rounded-lg w-3/4 mx-auto bg-blue-500">8. Grande plénière
+
+            <p class="w-[80%] h-50 h-full pt-4 text-[8px]" > Une session de clôture rassemblant tous les participants pour
+                un bilan des activités, des conférences inspirantes et des remises de prix ceci sera
+                organisée en deux jours de manière successive.</p>
+        </a>
+
+        </a>
+    </nav> 
+</div>
+
 
 
 
@@ -114,8 +354,17 @@
     const menuToggle = document.getElementById('menu-toggle');
     const menu = document.getElementById('menu');
 
+    const menuOuvertir = document.getElementById('menu-ouverture')
+    const deroule = document.getElementById('deroule');
+
+
     menuToggle.addEventListener('click', () => {
         menu.classList.toggle('hidden');
+    });
+
+
+    menuOuvertir.addEventListener('click', () => {
+        deroule.classList.toggle('hidden');
     });
 </script>
 
