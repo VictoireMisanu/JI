@@ -3,7 +3,7 @@
 
 <section class="flex  items-center w-full md:left-10">
 
-    <div class="bg-[url('./Assets/JIHero.png')] bg-cover bg-center h-50% md:lg:h-screen w-full flex flex-col items-center  justify-center gap-5 sm:text-center md:text-start" id="accueil">
+    <div class="bg-[url('./Assets/JIHero.png')] bg-cover bg-center h-screen md:lg:h-screen w-full flex flex-col items-center  justify-center gap-5 sm:text-center md:text-start" id="accueil">
         <header id="nav__list" class=" h-15 z-20 fixed bg-blue-500 bg-transparent md:lg:sm:bg-[#000244] flex justify-between items-center w-full  md:lg:h-20 px-8 md:lg:px-16  top-0">
             <img src="./Assets/logo.png" alt="" class=" w-16 h-16">
 
@@ -48,16 +48,21 @@
         
     </div>   
 </section>
-<section id="a-propos" class=" flex justify-center  items-center  w-full  px-6 pt-6 pb-6 md:lg:px-32">
-    <div class="w-full flex flex-col  items-center justify-center">
-        <h2 class= " w-full text-[#393c92]  font-['Arial'] text-[2rem] mb-[30px] font-bold  lg:text-xl pb-2  flex justify-start md:lg:justify-center  items-start">Les Journées Informatiques qu'est-ce?</h2>
-        <P class="p-2  text-black shadow-gray-700 shadow text-[16px] rounded-lg   border-black w-2/3">
-            Les Journées Informatiques (J.I.) sont l'ensemble d'événements visant à rassembler les étudiants de divers domaines pour créer des solutions technologiques aux défis de la communauté, tout en favorisant l'innovation, l'employabilité des jeunes et en connectant les talents avec les entreprises.
-        </P>
-    </div>
+<section id="a-propos" class="flex flex-col   justify-center  items-center  w-full   py-8 ">
+       <h1  class="text-[#393c92] font-['Arial'] text-[1.5rem] md:lg:text-[2rem] font-bold mb-[30px]">Les journées informatiques qu'est-ce?</h1>
+       <div class=" flex flex-col md:lg:flex-row w-full items-center justify-center h-fit bg-red-500 px-32" >
+            <div class="w-full md:lg:w-1/2">
+                <img src="./assets/what.png" alt="" class="h-72 md:lg:h-auto">
+            </div>
+            <P class="p-2  text-white text-[16px] rounded-lg   border-black w-full md:lg:w-1/2 md:lg:font-bold">
+                Les Journées Informatiques (J.I.) sont l'ensemble d'événements visant à rassembler les étudiants de divers domaines pour créer des solutions technologiques aux défis de la communauté, tout en favorisant l'innovation, l'employabilité des jeunes et en connectant les talents avec les entreprises.
+            </P>
+           
+       </div>
+       
 </section>
-<section class="md:lg:pt-4 flex flex-col justify-center  items-start  w-full pb-10 px-6  bg-gradient-to-r from-sky-50 md:lg:px-32 ">
-    <h2 class=" w-full text-yellow-600 text-[16px] font-bold  lg:text-xl pb-2  flex justify-start items-start">Objectifs</h2>
+<section class="md:lg:pt-4 flex flex-col justify-center  items-center  w-full pb-10 px-6  bg-gradient-to-r from-sky-50 md:lg:px-32 ">
+   <h1  class="text-[#393c92] font-['Arial'] text-[1.5rem] md:lg:text-[2rem] font-bold mb-[30px]">Objectifs</h1>
     <div  class=" flex flex-col  lg:md:flex-row justify-center  items-center  w-full relative rounded-lg h-fit  bg-gradient-to-r from-sky-100 gap-4 ">
         <div class="w-full h-fit md:lg:w-30% flex flex-col  items-center justify-center shadow-black shadow-lg rounded-lg">
             <img src="./Assets/promo.png" alt="" class="rounded-t-[0.5rem]  w-full">
@@ -91,11 +96,11 @@
     
 </section>
 
-<section class="hidden md:lg:flex flex-col justify-center items-start gap-6 pb-6 bg-gradient-to-r from-red-10 md:lg:px-32 pt-6">
-    <h2 class="md:lg:pt-2 w-full text-red-600 text-[16px] font-bold  lg:text-xl pt-6 pb-2 flex justify-start items-start">Objectifs secondaires</h2>
+<section class="hidden md:lg:flex flex-col justify-center items-center gap-6 pb-6 bg-gradient-to-r from-red-10 md:lg:px-32 pt-6">
+    <h1 class="text-[#393c92] font-['Arial'] text-[2rem] font-bold mb-[30px]">Objectifs secondaires</h1>
 
     <div class="flex w-full  justify-center items-center gap-20  text-[10px]  ">
-        <section class="w-auto md:lg:w-1/4 border-4 z-10 rounded-md h-fit shadow-md shadow-black-600 flex flex-col items-center justify-center border-none">
+        <section class="w-full md:lg:w-1/4 border-4 z-10 rounded-md h-fit shadow-md shadow-black-600 flex flex-col items-center justify-center border-none">
             <p class="w-[80%] pt-1 text-blue-800 font-bold text-[16px]">Collaboration interdisciplinaire</p>
             <p class="w-[80%] h-full  pt-2 text-[8px] md:lg:sm:text-[16px] mb-6">Favoriser la collaboration entre les étudiants des facultés techniques et ceux d'autres facultés, encourageant ainsi une approche interdisciplinaire de l'innovation numérique.</p>
         </section>
@@ -125,8 +130,9 @@
     </div>
 
 </section>
-<section id="a-propos" class=" md:lg:hidden flex w-full flex-col h-fit justify-center items-start gap-3 px-6 pb-6 bg-gradient-to-r from-red-10 ">
-    <h2 class="text-red-600 font-bold text-[16px] py-2">Objectifs secondaires</h2>
+<section id="a-propos" class=" md:lg:hidden flex w-full flex-col h-fit justify-center items-center gap-3 px-6 pb-6 bg-gradient-to-r from-red-10 ">
+    <h1 class="text-[#393c92] font-['Arial'] text-[1.5rem] font-bold mb-[30px]">Objectifs secondaires</h1>
+
     <div class=" w-full flex-col flex  justify-center items-center gap-2 text-[16px]">
         <section class="w-full md:lg:w-1/4 border-4 rounded-md h-fit shadow-md shadow-blue-600 flex flex-col items-center justify-center border-none">
             <p class="w-[80%] pt-1 text-blue-800 font-bold text-[16px]">Collaboration interdisciplinaire</p>
@@ -164,10 +170,7 @@
 
 
 <section class=" hidden lg:md:sm:flex flex-col justify-center items-center lg:md:sm:items-center lg:md:sm:gap-8 gap-5 lg:md:sm:bg-gradient-to-r from-red-5 red-200 px-32">
-    <h2 class="md:lg:pt-2 w-full text-blue-700 text-[16px] font-bold  lg:text-xl pt-6 pb-2 flex justify-start items-start">
-        Methodologie
-
-    </h2>
+   <h1  class="text-[#393c92] font-['Arial'] text-[2rem] font-bold mb-[30px]">Méthodologie</h1>
 
       <div class="flex  justify-center items-center gap-10">
         <section class="w-1/5  border-4 rounded-md h-fit shadow-md shadow-blue-700 flex flex-col items-center justify-center border-none">
@@ -225,8 +228,8 @@
 </section>
 
 
-<div class="relative flex items-center justify-center lg:md:hidden p-15 h-fit" >
-    <button id="menu-ouverture" type="button" class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-blue-600 p-3 bg-blue-600 rounded-lg " aria-expanded="false">
+<div class="relative flex items-center justify-center lg:md:hidden p-15 h-fit bg-yellow-400 py-4" >
+    <button id="menu-ouverture" type="button" class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-blue-600 p-3 bg-red-600 rounded-lg " aria-expanded="false">
         <span class="text-white" id="">Methodologie</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 24 24"><path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9l6 6l6-6"/></svg>
     </button>
@@ -284,7 +287,7 @@
 <div id="organizer" class="px-5 w-full pb-10 mb-10">
     <div class="">
         <div id="title" class="flex justify-center">
-            <h1 class="text-[#393c92] font-['Arial'] text-[2rem] font-bold mb-[30px]">Equipe organisatrice</h1>
+            <h1 class="text-[#393c92] font-['Arial'] text-[1.5rem] md:lg:text-[2rem] font-bold mt-[30px]">Equipe organisatrice</h1>
         </div>
         <div id="block-organizer" class="flex flex-col items-center md:flex-row justify-between py-5 gap-6 ">
             <div id="organizer1" class="flex flex-col items-center gap-7 w-[20rem] h-[28rem]  bg-slate-300 shadow-2xl shadow-stone-700  rounded-lg  p-5">
@@ -333,7 +336,7 @@
 
 <div id="partener" class="px-5 w-full mb-5 flex flex-col">
     <div id="title" class="flex justify-center">
-        <h1 class="text-[#393c92] font-['Arial'] text-[2rem] font-bold mb-5">Ils nous accompagnent</h1>
+        <h1 class="text-[#393c92] font-['Arial'] text-[1.5rem] md:lg:text-[2rem] font-bold mb-5">Ils nous accompagnent</h1>
     </div>
    <div class="flex flex-row justify-between  gap-5 md:gap-5 px-10 flex-wrap md:flex-nowrap">
         <div id="partener1" class="w-[5rem] h-[4rem] md:w-[9rem] md:h-[8rem] md:mt-7">
