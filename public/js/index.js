@@ -1,5 +1,5 @@
 const arrowTop = document.getElementById('arrowTop')
-const section1 = document.getElementById('section1')
+const section1 = document.getElementById('accueil')
 
 arrowTop.addEventListener('click', scroller = () => window.scrollTo(
     {top:0, behavior : 'smooth'}))
